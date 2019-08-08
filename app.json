@@ -1,8 +1,8 @@
 {
-  "name": "jwt-checker-server",
+  "name": "JWT checker server",
   "description": "A quick implementation of a JWT checking server.",
   "repository": "https://github.com/panz3r/jwt-checker-server",
-  "logo": "https://github.com/fastify/graphics/raw/master/full-logo.png",
+  "logo": "http://jwt.io/img/icon.svg",
   "keywords": [
     "heroku",
     "jwt",
