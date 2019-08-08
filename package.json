@@ -12,6 +12,7 @@
     "@meltwater/phi": "^3.3.0",
     "@meltwater/tau": "^1.11.0",
     "fastify": "^2.7.1",
+    "fastify-cors": "^2.1.3",
     "hyperid": "^2.0.2",
     "jsonwebtoken": "^8.5.1",
     "make-promises-safe": "^5.0.0"

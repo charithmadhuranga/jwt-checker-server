@@ -11,9 +11,13 @@ const fastify = require('fastify')({
   genReqId: hyperid,
 });
 
+fastify.register(require('fastify-cors'), {
+  origin: true,
+});
+
 fastify.register(require('./routes/jwt'));
 
-fastify.listen(process.env.PORT || 3000, '::', (err, address) => {
+fastify.listen(process.env.PORT || 5000, '::', (err, address) => {
   if (err) {
     fastify.log.error(err);
     process.exit(1);
