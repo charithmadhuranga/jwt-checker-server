@@ -1,0 +1,33 @@
+{
+  "name": "jwt-checker-server",
+  "version": "0.0.1",
+  "description": "A quick implementation of a JWT checking server.",
+  "author": "Mattia Panzeri <mattia.panzeri93@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panz3r/jwt-checker-server.git"
+  },
+  "dependencies": {
+    "@meltwater/phi": "^3.3.0",
+    "@meltwater/tau": "^1.11.0",
+    "fastify": "^2.7.1",
+    "hyperid": "^2.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "make-promises-safe": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "prettier": "1.18.2"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "prettier --single-quote --trailing-comma all --check 'src/**/*.js'",
+    "lint:fix": "prettier --single-quote --trailing-comma all --write 'src/**/*.js'"
+  },
+  "main": "src/index.js",
+  "engines": {
+    "node": "10.x"
+  }
+}
